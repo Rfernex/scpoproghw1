@@ -18,13 +18,11 @@ cd ~
 
 # 2. from your home, creating a directory structure: new folder `scpoprogramming`, and inside that folder create folder `hw1`
 # (enter your command below)
-#mkdir scpoprogramming 
-cd scpoprogramming
-#mkdir hw1
+mkdir -p ~/scpoprogramming/hw1
 
 # 3. go into that new directory, i.e. into ~/scpoprogramming/hw1
 # (enter your command below)
-cd hw1
+cd ~/scpoprogramming/hw1
 
 # 4. download with wget if file does not exist yet
 # if wget does not work for you, manually download from the below URL and place into `~/scpoprogramming/hw1` as `movies.dat`
